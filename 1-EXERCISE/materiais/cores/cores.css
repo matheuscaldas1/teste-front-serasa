@@ -1,0 +1,145 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f6f7f9;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.header-cores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fa2d8a;
+}
+
+.header-cores h1 {
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+.header-cores img {
+    height: 32px;
+    margin-right: 50px;
+}
+
+.text-content {
+    position: relative;
+    margin-left: 50px;
+    border-radius: 4px;
+    border-bottom: 4px solid #fa2d8a;
+    margin-bottom: -3px;
+    width: 10%;
+    z-index: 1;
+}
+
+.colors-system {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    z-index: 0;
+}
+
+.list-of-colors {
+    height: 73vh;
+    width: 100%;
+}
+
+.list-of-colors ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 80%;
+    max-width: 1220px;
+    list-style-type: none;
+    
+}
+
+.color-show {
+    height: 125px;
+    width: 255px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.color-show:hover {
+    height: 130px;
+    width: 260px;
+}
+
+.color-item {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.color-item span {
+    font-weight: bold;
+}
+
+.color-item p {
+    color: #aeb1bb;
+}
+
+.color-item.light-theme p {
+    color: #f0f2f4;
+}
+
+.dark-low {
+    background-color: #8d93a1;
+}
+
+.dark-low-text {
+    color: #8d93a1;
+}
+
+.dark-medium {
+    background-color: #646b7e;
+}
+
+.dark-medium-text {
+    color: #646b7e;
+}
+
+.dark-high {
+    background-color: #323953;
+}
+
+.magenta {
+    background-color: #ed0082;
+}
+
+.light-theme {
+    background-color: #97a3b3;
+}
+
+.light-theme:last-child {
+    margin-right: 625px;
+}
+
+.light-solid {
+    background-color: #ffffff;
+}
+
+.light-solid-text {
+    color: #ffffff;
+}
+
+.light-high {
+    background-color: #ebecef;
+}
+
+.light-high-text {
+    color: #ebecef;
+}
+
+.line-break {
+    width: 100%;
+  }
